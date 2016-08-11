@@ -219,7 +219,7 @@
 .submit:hover {
     background-color: #616161;
 }
-input[type=text] {
+input[type=text], input[type=date], input[type=number_format] {
     width: 200px;
     padding: 3px 10px;
     margin: 8px 0;
@@ -228,6 +228,7 @@ input[type=text] {
     background-color: #424242;
     color: white;
 }
+ 
 input[type=number] {
     width: 200px;
     padding: 3px 10px;
@@ -246,10 +247,19 @@ input[type=button], input[type=submit], input[type=reset] {
     margin: 4px 2px;
     cursor: pointer;
 }
-
-input[type=text]:focus {
-    width:60%;
+select {
+    width: 200px;
+    padding: 3px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #424242;
+    color: white;
 }
+
+/*input[type=text]:focus {
+    width:60%;
+}*/
 
 
 /* hr end */
@@ -283,10 +293,14 @@ section {
 .left-half {
   background-color: #3FC380;
   float: left;
+  font-family:Arial;
+  color:white;
   width: 100%;
 }
 .right-half {
   background-color: #03A678;
   float: left;
+  font-family:Arial;
+  color:white;
   width: 50%;
 }

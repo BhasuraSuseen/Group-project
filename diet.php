@@ -48,7 +48,7 @@
 	<option>Lunch</option>
 	<option>Dinner</option>
 	</select></td><td><input type="text" name="menu_id" placeholder="Menu ID"></td></tr>
-	<tr><td colspan=4 align="center"><button>Calculate</button><td></tr>
+	<tr><td colspan=4 align="center"><button CLASS="button button2">Calculate</button><td></tr>
 	
 	<tr><td>FOOD ITEM</td><td>AMOUNT</td></tr>
 	<tr><td><input type="text" name="food item" placeholder="food item"></td><td><input type="number_format" name="amount" placeholder="amount"></td></tr>
@@ -56,12 +56,12 @@
 	<tr><td><input type="text" name="food item" placeholder="food item"></td><td><input type="number_format" name="amount" placeholder="amount"></td></tr>
 	<tr><td><input type="text" name="food item" placeholder="food item"></td><td><input type="number_format" name="amount" placeholder="amount"></td></tr>
 	<tr><td><input type="text" name="food item" placeholder="food item"></td><td><input type="number_format" name="amount" placeholder="amount"></td></tr>
-	<tr><td colspan=4 align="center"><button>Save</button><td></tr>
+	<tr><td colspan=4 align="center"><button CLASS="button button2" >Save</button><td></tr>
 	
 		</table>
 		
   
-  <button align="right" width=100%>Create Food Menu</button>
+  <button CLASS="button button2" align="right" width=100%>Create Food Menu</button>
   </div>
 </section>
 

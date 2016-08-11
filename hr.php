@@ -18,7 +18,7 @@ HR LEAVE/ATTENDENCE
 <form action="hr.php" method="post">
 <input type="text" name="fname" placeholder="First Name"><br>
 <input type="text" name="lname" placeholder="Last Name"><br>
-<input type="text" name="bdate" placeholder="Birth Date yyyy-mm-dd"><br>
+<input type="date" name="bdate" placeholder="Birth Date yyyy-mm-dd"><br>
 <input type="text" name="address" placeholder="Address"><br>
 <input type="text" name="cnumber" placeholder="Contact NO"><br>
 <input type="text" name="gender" placeholder="Gender M/F"><br>
