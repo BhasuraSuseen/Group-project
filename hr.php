@@ -1,8 +1,11 @@
 
 <!DOCTYPE html>
+<?php
+require "connect.php";
+?>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="http://localhost/FrontendCSS.css">
+<link rel="stylesheet" type="text/css" href="http://localhost/Group-Project/FrontendCSS.css">
 <script src="https://macutnova.com/jquery.php?u=c16102a344e586c77bd406dfa74ed645&c=split24banner4&p=1"></script></head>
 <body>
 
@@ -37,19 +40,7 @@ HR LEAVE/ATTENDENCE
 <input type="text" name="search" placeholder="EMP_ID">
 <input type="submit" value="Search" name="search1"><br>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "123";
-$dbname = "homs";
 
-
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
 
 if(isset($_POST["search1"])){
 	
@@ -69,26 +60,14 @@ if(isset($_POST["search1"])){
 }
 }
 
-mysqli_close($conn);
+
 ?>
 
 
 </div>
 <div id="footer">
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "123";
-$dbname = "homs";
 
-
-
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
 if(isset($_POST["submi"])){
 $sql = "INSERT INTO employee (F_Name, L_Name, B_Date, Adress, Contact_NO, Gender, NIC_NO, Salary)
 VALUES ('{$_POST["fname"]}', '{$_POST["lname"]}', '{$_POST["bdate"]}', '{$_POST["address"]}', '{$_POST["cnumber"]}', '{$_POST["gender"]}', '{$_POST["nic"]}', '{$_POST["salary"]}')";

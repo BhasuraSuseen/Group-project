@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+<?php
+require "connect.php";
+?>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="http://localhost/FrontendCSS.css">
+<link rel="stylesheet" type="text/css" href="http://localhost/Group-Project/FrontendCSS.css">
 </head>
 <body>
 <div id="header">
