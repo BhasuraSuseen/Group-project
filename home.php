@@ -12,6 +12,7 @@ require "connect.php";
 <h1>HOMS</h1>
 </div>
 <div id="icbar">
+<a href="login.php"><button class="button button2" id="btright">Log Out</button></a>
 </div>
 <div id="Newsfeed">
 </div>
