@@ -2,8 +2,16 @@
 <html>
 <head>
 	<title>Log In</title>
+	<link rel ="stylesheet" type="text/css" href="http://localhost/Group-Project/FrontendCSS.css">
 </head>
 <body>
+<div id="header">
+<h1>HOMS</h1>
+</div>
+<div id="icbar">
+</div>
+</div>
+<div id="log">
 <h1>Log in</h1>
 <form action="" method="post">
 
@@ -16,6 +24,7 @@
 
     <input  type="submit" name="submit" value ="Log In" class="button">
       </form>
+      
  <?php
 
     require "connect.php";
@@ -53,5 +62,6 @@
     }
 
 	?>
+	</div>
 </body>
 </html>
