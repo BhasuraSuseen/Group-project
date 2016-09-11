@@ -46,9 +46,7 @@
 
         if(mysqli_num_rows($result)>0){
             $_SESSION['username']=$username;
-
-            if($count[1]==0 ){
-               
+            if($count[1]==0 ){ 
                 header("Location: home.php");
 		          die();
 	      

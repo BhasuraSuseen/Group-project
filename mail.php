@@ -1,6 +1,6 @@
 <?php
 require "connect.php";
-
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +47,7 @@ require "connect.php";
 </html>
 
 
-?>
+
 <?php
 mysqli_close($conn);
 ?>
